@@ -9,7 +9,10 @@ class Helloworld extends StatelessWidget {
       backgroundColor: const Color.fromARGB(255, 207, 205, 205),
       appBar: AppBar(
         backgroundColor: Color.fromARGB(121, 222, 119, 22),
-        title: Text("Mein Hello World", style: TextStyle(letterSpacing: 2)),
+        title: Text(
+          "Mein Hello World",
+          style: TextStyle(letterSpacing: 2, fontWeight: FontWeight.bold),
+        ),
       ),
       body: Center(
         child: Container(
