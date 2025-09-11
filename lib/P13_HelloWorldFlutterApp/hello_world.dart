@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
 
 class Helloworld extends StatelessWidget {
-  Helloworld({super.key});
+  const Helloworld({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color.fromARGB(255, 207, 205, 205),
       appBar: AppBar(
-        backgroundColor: Color.fromARGB(121, 76, 47, 19),
-        title: Text("Mein Hello World"),
+        backgroundColor: Color.fromARGB(121, 222, 119, 22),
+        title: Text("Mein Hello World", style: TextStyle(letterSpacing: 2)),
       ),
       body: Center(
         child: Container(
@@ -20,7 +21,7 @@ class Helloworld extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                "Der Text",
+                "FarO",
                 style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
               ),
             ],
