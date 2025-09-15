@@ -63,7 +63,7 @@ class WidgetUebersicht extends StatelessWidget {
             ],
           ),
           SizedBox(height: 24),
-          Column(children: [NameWidget(), NameWidget()]),
+          Column(children: [NameWidget(), SizedBox(height: 24), NameWidget()]),
         ],
       ),
     );
@@ -136,7 +136,7 @@ class NameWidget extends StatelessWidget {
         Row(
           children: [
             Icon(Icons.face, size: 44),
-            SizedBox(width: 44),
+            SizedBox(width: 84),
             Icon(Icons.face, size: 44),
           ],
         ),
