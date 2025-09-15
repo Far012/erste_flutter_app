@@ -14,6 +14,7 @@ class WidgetUebersicht extends StatelessWidget {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
+          SizedBox(height: 44),
           AppAkademieText(),
           SizedBox(height: 16),
           AppAkademieText(),
