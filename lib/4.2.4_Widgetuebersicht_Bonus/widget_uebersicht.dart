@@ -50,13 +50,13 @@ class WidgetUebersicht extends StatelessWidget {
               ),
               SizedBox(width: 16),
               Box(
-                letter: letters[0],
+                letter: letters[1],
                 backgroundColor: Colors.green,
                 circleColor: Color.fromARGB(255, 103, 80, 164),
               ),
               SizedBox(width: 16),
               Box(
-                letter: letters[0],
+                letter: letters[2],
                 backgroundColor: Colors.blue,
                 circleColor: Color.fromARGB(255, 103, 80, 164),
               ),
